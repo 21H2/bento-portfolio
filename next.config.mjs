@@ -83,6 +83,11 @@ const nextConfig = {
     if (!isServer && config.mode === 'production') {
       config.optimization.minimize = true;
     }
+    
+    // Disable webpack cache for Cloudflare Pages deployment
+    if (process.env.CF_PAGES === '1' || process.env.CLOUDFLARE_PAGES === '1') {
+      config.cache = false;
+    }
 
     return config;
   },
