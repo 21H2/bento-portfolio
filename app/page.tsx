@@ -581,6 +581,7 @@ export default function Home() {
                   scale: [1, 1.05, 1],
                   transition: { duration: 9, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" },
                 }}
+                className="h-full w-full"
               >
                 <Image
                   src="/images/python-data.jpg"
@@ -588,6 +589,7 @@ export default function Home() {
                   width={300}
                   height={300}
                   className="object-cover h-full w-full"
+                  priority
                 />
               </motion.div>
               <motion.div
