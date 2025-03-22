@@ -273,7 +273,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/images/profile.jpg"
                   alt="Umesh Sharma"
                   width={400}
                   height={400}
@@ -542,7 +542,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/hackintosh.jpg"
                   alt="Hackintosh Guide"
                   width={300}
                   height={300}
@@ -583,7 +583,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/images/python-data.jpg"
                   alt="Python Data Visualizer"
                   width={300}
                   height={300}
