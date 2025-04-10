@@ -633,14 +633,16 @@ export default function Home() {
                   whileTap={{ scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <Button variant="outline" size="sm" className="gap-2 group">
-                    <motion.span
-                      animate={{ rotate: [0, 10, -10, 0] }}
-                      transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5 }}
-                    >
-                      <Github className="h-4 w-4 group-hover:text-primary transition-colors" />
-                    </motion.span>
-                    <span>GitHub</span>
+                  <Button variant="outline" size="sm" className="gap-2 group" asChild>
+                    <Link href="https://github.com/21h2" target="_blank" rel="noopener noreferrer">
+                      <motion.span
+                        animate={{ rotate: [0, 10, -10, 0] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5 }}
+                      >
+                        <Github className="h-4 w-4 group-hover:text-primary transition-colors" />
+                      </motion.span>
+                      <span>GitHub</span>
+                    </Link>
                   </Button>
                 </motion.div>
                 <motion.div
@@ -648,14 +650,16 @@ export default function Home() {
                   whileTap={{ scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <Button variant="outline" size="sm" className="gap-2 group">
-                    <motion.span
-                      animate={{ rotate: [0, 10, -10, 0] }}
-                      transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1 }}
-                    >
-                      <Linkedin className="h-4 w-4 group-hover:text-primary transition-colors" />
-                    </motion.span>
-                    <span>LinkedIn</span>
+                  <Button variant="outline" size="sm" className="gap-2 group" asChild>
+                    <Link href="https://www.linkedin.com/in/umesh-kumar-sharma-415002338/" target="_blank" rel="noopener noreferrer">
+                      <motion.span
+                        animate={{ rotate: [0, 10, -10, 0] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1 }}
+                      >
+                        <Linkedin className="h-4 w-4 group-hover:text-primary transition-colors" />
+                      </motion.span>
+                      <span>LinkedIn</span>
+                    </Link>
                   </Button>
                 </motion.div>
                 <motion.div
@@ -663,14 +667,16 @@ export default function Home() {
                   whileTap={{ scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <Button variant="outline" size="sm" className="gap-2 group">
-                    <motion.span
-                      animate={{ rotate: [0, 10, -10, 0] }}
-                      transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1.5 }}
-                    >
-                      <Mail className="h-4 w-4 group-hover:text-primary transition-colors" />
-                    </motion.span>
-                    <span>Email</span>
+                  <Button variant="outline" size="sm" className="gap-2 group" asChild>
+                    <Link href="mailto:correct-ruby4b@icloud.com">
+                      <motion.span
+                        animate={{ rotate: [0, 10, -10, 0] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1.5 }}
+                      >
+                        <Mail className="h-4 w-4 group-hover:text-primary transition-colors" />
+                      </motion.span>
+                      <span>Email</span>
+                    </Link>
                   </Button>
                 </motion.div>
               </div>
