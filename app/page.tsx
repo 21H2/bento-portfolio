@@ -651,21 +651,6 @@ export default function Home() {
                   <Button variant="outline" size="sm" className="gap-2 group">
                     <motion.span
                       animate={{ rotate: [0, 10, -10, 0] }}
-                      transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 0.5 }}
-                    >
-                      <Twitter className="h-4 w-4 group-hover:text-primary transition-colors" />
-                    </motion.span>
-                    <span>Twitter</span>
-                  </Button>
-                </motion.div>
-                <motion.div
-                  whileHover={{ y: -5, scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  transition={{ type: "spring", stiffness: 400 }}
-                >
-                  <Button variant="outline" size="sm" className="gap-2 group">
-                    <motion.span
-                      animate={{ rotate: [0, 10, -10, 0] }}
                       transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1 }}
                     >
                       <Linkedin className="h-4 w-4 group-hover:text-primary transition-colors" />
