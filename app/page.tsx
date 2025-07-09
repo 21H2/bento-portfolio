@@ -668,7 +668,7 @@ export default function Home() {
                   transition={{ type: "spring", stiffness: 400 }}
                 >
                   <Button variant="outline" size="sm" className="gap-2 group" asChild>
-                    <Link href="mailto:correct-ruby4b@icloud.com">
+                    <Link href="mailto:umesh@mushe.xyz">
                       <motion.span
                         animate={{ rotate: [0, 10, -10, 0] }}
                         transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatDelay: 5, delay: 1.5 }}
